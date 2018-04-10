@@ -1,0 +1,8 @@
+<div>
+    <form  #f="ngForm">
+        <div><button (click)="getMol()">Get Molecule source</button></div>
+        <div><button (click)="setMol()">Set Molecule source</button></div>
+        <div><textarea rows="20" cols="90" [(value)]="molData.molSrc" [(ngModel)]="molData.molSrc" name="molText"></textarea></div>
+    </form>
+</div>
+<iframe src="../assets/integration.html" id="sketch" class="sketcher-frame" style="width:600px; height:450px; border: 1px solid grey;"></iframe>

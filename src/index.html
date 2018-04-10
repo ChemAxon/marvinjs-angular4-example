@@ -7,6 +7,26 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link type="text/css" rel="stylesheet" href="assets/marvinjs/gui/css/editor.min.css" media="screen" />
+  <script src="assets/jquery/jquery.min.js"></script>
+  <script src="assets/marvinjs/gui/lib/promise-1.0.0.min.js"></script>
+  <script src="assets/marvinjs/js/marvinjslauncher.js"></script>
+  <script src="assets/marvinjs/js/util.js"></script>
+  <script>
+	
+	
+    var marvin;
+
+    $(document).ready(function handleDocumentReady (e) {        
+        MarvinJSUtil.getEditor("#sketch").then(function (sketcherInstance) {
+            marvin = sketcherInstance;
+        },function (error) {
+            console.log(error)
+        });
+
+    });
+
+	</script>
 </head>
 <body>
   <app-root>Loading...</app-root>
