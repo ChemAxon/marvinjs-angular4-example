@@ -1,4 +1,12 @@
-# MjsExample
+# MarvinJS Angula4 Example
+
+## Initial steps
+
+Before you can start to use this project, please don't forget to set up your *.npmrc* to be able to use our 
+[repository](https://docs.chemaxon.com/display/docs/Public+Repository): 
+[ChemAxon's npm repository](https://hub.chemaxon.com/artifactory/webapp/#/artifacts/browse/tree/General/npm)
+
+## About this project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
