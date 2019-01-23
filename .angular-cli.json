@@ -22,8 +22,6 @@
       "prefix": "app",
       "styles": [
         "../node_modules/marvinjs/gui/css/editor.css",
-        "../node_modules/marvinjs/gui/css/auto/clean.css",
-        "../node_modules/marvinjs/gui/css/auto/gui.css",
         "styles.css"
       ],
       "scripts": [
